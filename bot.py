@@ -20,9 +20,9 @@ log = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 SHORTLINKBOT = Client('ShortlinkBot',
-                      api_id=API_ID,
-                      api_hash=API_HASH,
-                      bot_token=BOT_TOKEN,
+                      api_id=API_ID, 19886681,
+                      api_hash=API_HASH, 600e799cf14a251134cd0c6ea8e08f27,
+                      bot_token=BOT_TOKEN, 5142098805:AAFBUvAmCaAmMfzV7nS9zNSGxmmQmJPnLRA,
                       workers=50,
                       sleep_threshold=10)
 
